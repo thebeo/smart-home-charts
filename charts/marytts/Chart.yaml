@@ -2,7 +2,7 @@
 apiVersion: v2
 description: The MARY Text-to-Speech System (MaryTTS) is an open-source, multilingual Text-to-Speech Synthesis platform
 name: marytts
-version: 0.0.1
+version: 0.1.0
 maintainers:
   - name: AntorFR
     email: contact@antor.fr

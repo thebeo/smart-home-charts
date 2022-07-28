@@ -2,7 +2,7 @@
 apiVersion: v2
 description: TasmoAdmin is an administrative platform for devices flashed with Tasmota.
 name: tasmoadmin
-version: 0.0.1
+version: 0.1.0
 maintainers:
   - name: AntorFR
     email: contact@antor.fr

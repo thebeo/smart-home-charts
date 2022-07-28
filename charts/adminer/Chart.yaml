@@ -2,7 +2,7 @@
 apiVersion: v2
 description: Adminer (formerly phpMinAdmin) is a web database management tool
 name: adminer
-version: 0.0.1
+version: 0.1.0
 maintainers:
   - name: AntorFR
     email: contact@antor.fr
