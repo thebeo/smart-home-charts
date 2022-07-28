@@ -13,6 +13,7 @@ postgres:
   db_password: postgres
   db_user: postgres
   name: cf-db-data
+  db_storage_class: longhorn
 
 core:
   repository: exadel/compreface-core

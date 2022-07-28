@@ -5,6 +5,7 @@ metadata:
     app: db-data
   name: {{ .Values.postgres.name }}
 spec:
+  storageClassName: {{ .Values.postgres.db_storage_class }}
   accessModes:
     - ReadWriteOnce
   resources:
