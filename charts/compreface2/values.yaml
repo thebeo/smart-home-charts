@@ -36,30 +36,33 @@ postgresql:
       size: 100Mi
 
 api:
-  # -- image repository
-  repository: exadel/compreface-api
-  # -- image pull policy
-  pullPolicy: IfNotPresent
-  # -- image tag
-  tag: 1.0.1
+  image:
+    # -- image repository
+    repository: exadel/compreface-api
+    # -- image pull policy
+    pullPolicy: IfNotPresent
+    # -- image tag
+    tag: 1.0.1
   port: 8080
 
 admin:
-  # -- image repository
-  repository: exadel/compreface-admin
-  # -- image pull policy
-  pullPolicy: IfNotPresent
-  # -- image tag
-  tag: 1.0.1
+  image:
+    # -- image repository
+    repository: exadel/compreface-admin
+    # -- image pull policy
+    pullPolicy: IfNotPresent
+    # -- image tag
+    tag: 1.0.1
   port: 8080
 
 fe:
-  # -- image repository
-  repository: exadel/compreface-fe
-  # -- image pull policy
-  pullPolicy: IfNotPresent
-  # -- image tag
-  tag: 1.0.1
+  image:
+    # -- image repository
+    repository: exadel/compreface-fe
+    # -- image pull policy
+    pullPolicy: IfNotPresent
+    # -- image tag
+    tag: 1.0.1
   port: 80
 
 # -- Configures service settings for the chart.
