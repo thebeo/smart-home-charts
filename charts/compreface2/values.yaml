@@ -22,8 +22,12 @@ env:
 postgresql:
   fullnameOverride: compreface-db
   image:
-    repository: postgresql
-    tag: 14.1.0
+    # -- image repository
+    repository: postgres
+    # -- image tag
+    tag: 14.4
+    # -- image pull policy
+    pullPolicy: IfNotPresent
   auth:
     postgresPassword: postgres-pass
     username: compreface
@@ -80,7 +84,7 @@ service:
       admin:
         enabled: true
         port: 8081
-        targetPort: 8080
+        targetPort: 8081
       ui:
         enabled: true
         port: 80
