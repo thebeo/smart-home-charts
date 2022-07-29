@@ -84,7 +84,7 @@ service:
       admin:
         enabled: true
         port: 8081
-        targetPort: 8081
+        targetPort: 8080
       ui:
         enabled: true
         port: 80
