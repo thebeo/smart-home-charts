@@ -17,6 +17,7 @@ image:
 # @default -- See below
 env:
   TZ: UTC
+  ML_PORT: 3000
 
 postgres:
   fullnameOverride: compreface-db
