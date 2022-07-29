@@ -14,11 +14,11 @@ additionalContainers:
       - name: API_JAVA_OPTS
         value: '-Xmx8g'
       - name: POSTGRES_PASSWORD
-        value: '{{ .Values.postgres.auth.password }}'
+        value: '{{ .Values.postgresql.auth.password }}'
       - name: POSTGRES_URL
-        value: 'jdbc:postgresql://{{ .Values.postgres.fullnameOverride }}:5432/{{ .Values.postgres.auth.database }}'
+        value: 'jdbc:postgresql://{{ .Values.postgresql.fullnameOverride }}:5432/{{ .Values.postgresql.auth.database }}'
       - name: POSTGRES_USER
-        value: '{{ .Values.postgres.auth.username }}'
+        value: '{{ .Values.postgresql.auth.username }}'
       - name: SAVE_IMAGES_TO_DB
         value: 'true'
       - name: SPRING_PROFILES_ACTIVE
@@ -44,11 +44,11 @@ additionalContainers:
       - name: EMAIL_USERNAME
       - name: ENABLE_EMAIL_SERVER
       - name: POSTGRES_PASSWORD
-        value: '{{ .Values.postgres.auth.password }}'
+        value: '{{ .Values.postgresql.auth.password }}'
       - name: POSTGRES_URL
-        value: 'jdbc:postgresql://{{ .Values.postgres.fullnameOverride }}:5432/{{ .Values.postgres.auth.database }}'
+        value: 'jdbc:postgresql://{{ .Values.postgresql.fullnameOverride }}:5432/{{ .Values.postgresql.auth.database }}'
       - name: POSTGRES_USER
-        value: '{{ .Values.postgres.auth.username }}'
+        value: '{{ .Values.postgresql.auth.username }}'
       - name: SAVE_IMAGES_TO_DB
         value: 'true'
       - name: SPRING_PROFILES_ACTIVE
@@ -74,11 +74,11 @@ additionalContainers:
       - name: EMAIL_USERNAME
       - name: ENABLE_EMAIL_SERVER
       - name: POSTGRES_PASSWORD
-        value: '{{ .Values.postgres.auth.password }}'
+        value: '{{ .Values.postgresql.auth.password }}'
       - name: POSTGRES_URL
-        value: 'jdbc:postgresql://{{ .Values.postgres.fullnameOverride }}:5432/{{ .Values.postgres.auth.database }}'
+        value: 'jdbc:postgresql://{{ .Values.postgresql.fullnameOverride }}:5432/{{ .Values.postgresql.auth.database }}'
       - name: POSTGRES_USER
-        value: '{{ .Values.postgres.auth.username }}'
+        value: '{{ .Values.postgresql.auth.username }}'
       - name: SAVE_IMAGES_TO_DB
         value: 'true'
       - name: SPRING_PROFILES_ACTIVE

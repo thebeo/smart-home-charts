@@ -19,7 +19,7 @@ env:
   TZ: UTC
   ML_PORT: 3000
 
-postgres:
+postgresql:
   fullnameOverride: compreface-db
   image:
     repository: postgresql
