@@ -14,6 +14,7 @@ postgres:
   db_user: postgres
   name: cf-db-data
   db_storage_class: longhorn
+  db_storage_size: 100Mi
 
 core:
   repository: exadel/compreface-core
