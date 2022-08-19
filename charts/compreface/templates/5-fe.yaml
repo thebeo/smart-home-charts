@@ -60,7 +60,7 @@ spec:
               service:
                 name: "compreface-ui"
                 port:
-                  number: {{- default $port .port -}}
+                  number: {{ default $port .port }}
         {{- end }}
   {{- end }}
 {{- end }}
