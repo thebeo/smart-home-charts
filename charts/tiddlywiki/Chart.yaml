@@ -1,0 +1,12 @@
+apiVersion: v2
+name: tiddliwiki
+description: A Helm chart for Kubernetes to deploy elasticdog/tiddlywiki
+version: 0.1.0
+dependencies:
+  - name: common
+    repository: https://github.com/thebeo/library-charts
+    version: 4.4.2
+annotations:
+  artifacthub.io/changes: |-
+    - kind: changed
+      description: creation
