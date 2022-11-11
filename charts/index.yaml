@@ -10,5 +10,5 @@ entries:
     type: application
     urls:
     - git@github.com:thebeo/smart-home-charts/charts/packages/smart-home-charts-1.0.0.tar
-    version: 0.1.1
+    version: 0.1.0
 generated: "2022-10-18T21:51:41.976097+02:00"
