@@ -1,5 +1,5 @@
 apiVersion: v2
-name: tiddliwiki
+name: tiddlywiki
 description: A Helm chart for Kubernetes to deploy elasticdog/tiddlywiki
 version: 0.1.0
 dependencies:
