@@ -1,29 +1,12 @@
 apiVersion: v1
 entries:
-  tiddliwiki:
-  - annotations:
-      artifacthub.io/changes: |-
-        - kind: changed
-          description: creation
-    apiVersion: v2
-    created: "2022-11-11T21:02:18.95451+01:00"
-    dependencies:
-    - name: common
-      repository: https://library-charts.k8s-at-home.com
-      version: 4.4.2
-    description: A Helm chart for Kubernetes to deploy elasticdog/tiddlywiki
-    digest: 62f91263ada3e6ee5608db462d493b1bc83af8395099f821250061302b210d60
-    name: tiddliwiki
-    urls:
-    - https://thebeo.github.io/smart-home-charts/tiddliwiki-0.1.0.tgz
-    version: 0.1.0
   tiddlywiki:
   - annotations:
       artifacthub.io/changes: |-
         - kind: changed
           description: creation
     apiVersion: v2
-    created: "2022-11-11T21:02:18.959081+01:00"
+    created: "2022-11-11T21:05:45.645149+01:00"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -34,4 +17,4 @@ entries:
     urls:
     - https://thebeo.github.io/smart-home-charts/tiddlywiki-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-11T21:02:18.943359+01:00"
+generated: "2022-11-11T21:05:45.6395+01:00"
