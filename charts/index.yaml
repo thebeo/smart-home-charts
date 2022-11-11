@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  tiddliwiki:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-10-18T21:51:41.978518+02:00"
+    description: A very new Helm chart for Kubernetes
+    digest: b6fae6e622a4fd104664660bd9ba652abaa7097f099a8572669d0e3000b25a72
+    name: tiddliwiki
+    type: application
+    urls:
+    - git@github.com:thebeo/smart-home-charts/charts/packages/smart-home-charts-1.0.0.tar
+    version: 0.1.1
+generated: "2022-10-18T21:51:41.976097+02:00"
